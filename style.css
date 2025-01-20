@@ -1,0 +1,367 @@
+* {}
+
+body {
+    /* background-color: #F4EEFF; */
+    font-family: "Roboto", sans-serif;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo-img {
+    width: 60px;
+}
+
+.navigation {
+    font-size: 18px;
+    font-weight: 500;
+
+}
+
+.navlinks {
+   color: white;
+    font-weight: 600;
+}
+
+.navlinks:hover {
+    /* background-color: #465492; */
+    color: red;
+}
+
+/* .modal-bg{
+    background-image: linear-gradient(135deg, #667eea 10%, #764ba2 100%);
+   
+} */
+
+.modal-joinus {
+    /* background-image: url(images/modal-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; */
+
+    background-image: linear-gradient(135deg, #79F1A4 10%, #0E5CAD 100%);
+}
+
+.modal-heading {
+    font-family: "Playfair Display", serif;
+}
+
+
+
+.hero-section {
+    background-image: url(images/demoimg-4.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position:left ;
+    margin-top: 70px;
+}
+
+.text-hero {
+    text-shadow: 3px 2px 1px rgb(10, 10, 10);
+    font-family: "Playfair Display", serif;
+}
+
+.hero-btns,
+.info-btn {
+    border: 1px solid #ffffff;
+    color: white;
+    background-color: #465492;
+}
+
+
+
+
+.hero-btns:hover {
+    background-color: #424874;
+    color: white;
+    border: 1px solid #232954;
+}
+
+.why-yoga {
+    background-color: #DCD6F7;
+}
+
+.why-yoga-list li {
+    margin-bottom: 20px;
+
+
+}
+
+.why-yoga-list li::marker {
+    color: #424874;
+
+}
+
+.why-yoga-points {
+    text-transform: uppercase;
+    color: #424874;
+    font-weight: 600;
+}
+
+
+.why-yoga-img {
+    background-image: url(images/why-yoga-img.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.heading {
+    font-family: "Playfair Display", serif;
+}
+
+.testimonial-img {
+    border-radius: 50%;
+    width: 100px;
+
+}
+
+.heading-carousel {
+    font-size: 28px;
+}
+
+.yoga-name {
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.membership-side-btn {
+    background-color: #424874;
+    color: aliceblue;
+    border: 1px solid black;
+}
+
+.membership-btn,
+.membership-side-btn:hover {
+    background-color: #ffffff;
+    border: 1px solid #424874
+}
+
+.membership-btn:hover {
+    transform: scale(1.1);
+}
+
+
+.weekly-membership:hover {
+    transform: scale(1.1);
+}
+
+
+.monthly-membership:hover {
+    transform: scale(1.1);
+    margin-left: 16px;
+}
+
+.carousel-buttons {
+    background-color: #17214f;
+}
+
+
+.social-sidebar {
+    width: 35px;
+}
+
+.socials-side {
+    width: 30px;
+}
+
+/* about-page-css-style-start */
+
+#aboutus-page-body {
+    font-family: "Roboto", sans-serif;
+}
+
+
+
+.about-container {
+    padding-top: 140px;
+    padding-bottom: 100px;
+}
+
+
+
+.box-text {
+    font-size: 13px;
+    font-weight: 600;
+    color: #17214f;
+    text-transform: uppercase;
+}
+
+
+
+
+
+/* about-page-css-style-ends */
+
+/* instructor-page-css-style-starts */
+.about-instructor {
+    font-size:20px ;
+}
+
+
+
+
+ /* gallery-section */
+ .img-container{
+    height: 350px;
+    
+}
+
+
+
+.gallery-img{
+    object-fit: cover;
+    object-position: center;
+
+    
+}
+
+.gallery-img:hover{}
+
+
+
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .instructor-info {
+        font-size: 16px;
+    }
+
+    .hero-para {
+        font-size: 16px !important
+    }
+
+    .info-text {
+        font-size: 16px;
+    }
+
+    .social-sidebar {
+        width: 25px;
+    }
+
+    .heading-carousel {
+        font-size: 16px;
+    }
+
+    .types{
+        display: flex;
+        background-color: #0E5CAD;
+    }
+
+    .img-2{
+        order: 3;
+    }
+
+}
+
+/* Small devices (portrait tablets and large phones, 1024px and down) */
+@media only screen and (max-width: 1030px) {
+    .about-text {
+        font-size: 15px;
+    }
+
+    .about-instructor {
+        font-size:14px ;
+    }
+
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .info-text {
+        font-size: 16px;
+    }
+
+    .instructor-info {
+        font-size: 16px;
+    }
+
+
+}
+
+/* Large devices (laptops/desktops, 1024px and up) */
+@media only screen and (min-width: 1024px) {
+    .instructor-info {
+        font-size: 17px;
+    }
+
+    .about-instructor {
+        font-size:14px ;
+    }
+
+
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1400px) {
+    .about-text {
+        font-size: 20px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 767px) {
+    .carousel-inner .carousel-item>div {
+        display: none;
+    }
+
+    .carousel-inner .carousel-item>div:first-child {
+        display: block;
+    }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+    display: flex;
+}
+
+/* medium and up screens */
+@media (min-width: 768px) {
+
+    .carousel-inner .carousel-item-end.active,
+    .carousel-inner .carousel-item-next {
+        transform: translateX(25%);
+    }
+
+    .carousel-inner .carousel-item-start.active,
+    .carousel-inner .carousel-item-prev {
+        transform: translateX(-25%);
+    }
+}
+
+.carousel-inner .carousel-item-end,
+.carousel-inner .carousel-item-start {
+    transform: translateX(0);
+}
+
+
+
+
+
+/* animations */
